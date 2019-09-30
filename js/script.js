@@ -51,6 +51,6 @@ $('#userForm').submit(function (e) {
 });
 
 function showError(str) {
-    var alert = $('<div>').addClass("alert alert-danger").attr("role", "alert").text(str)
+    var alert = $('<div>').addClass("alert alert-danger").attr("role", "alert").text(str);;
     $('#errors').append(alert);
 }

@@ -43,7 +43,7 @@ $('#userForm').submit(function (e) {
                 "acceptAgreement": agreement
             },
             function (response) {
-                console.log(response)
+                window.location.href = "userData.html?id=" + response.id;
             }
         );
     }
